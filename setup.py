@@ -21,15 +21,15 @@ install_requires = [
 ]
 
 setup(
-    name="django-import-export",
+    name="custom-django-import-export",
     description="Django application and library for importing and exporting"
             "data with included admin integration.",
     version=VERSION,
-    author="Informatika Mihelac",
-    author_email="bmihelac@mihelac.org",
+    author="filippo arpesani",
+    author_email="filippo.arpesani@gmail.com",
     license='BSD License',
     platforms=['OS Independent'],
-    url="https://github.com/bmihelac/django-import-export",
+    url="https://github.com/arpesanif/custom-django-import-export",
     packages=find_packages(exclude=["tests"]),
     include_package_data=True,
     install_requires=install_requires,
