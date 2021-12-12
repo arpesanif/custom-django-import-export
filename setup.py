@@ -16,7 +16,7 @@ CLASSIFIERS = [
 ]
 
 install_requires = [
-    'tablib==0.11.0',
+    'tablib==0.13.0',
     'diff-match-patch',
 ]
 
