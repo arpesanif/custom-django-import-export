@@ -16,7 +16,7 @@ CLASSIFIERS = [
 ]
 
 install_requires = [
-    'tablib',
+    'tablib==0.11.0',
     'diff-match-patch',
 ]
 
@@ -24,7 +24,7 @@ setup(
     name="custom-django-import-export",
     description="Django application and library for importing and exporting"
             "data with included admin integration.",
-    version=VERSION,
+    version=1.0,
     author="filippo arpesani",
     author_email="filippo.arpesani@gmail.com",
     license='BSD License',
